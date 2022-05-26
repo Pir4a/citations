@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+.container {
+    background: cyan;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10%;
+    border-radius: 5%;
+    box-shadow: 15% 15% 5% 15% rgb(139, 0, 0);
+}
+#textbox { 
+    background-color: beige;
+    width: 60%;
+    height: auto;
+    margin-top: 5%;
+    padding: 5%;
+    border: none;
+    border-radius: 5%;
+}
+#btn {
+    padding: 1% 2% 1% 2%;
+    margin-top: 10%;
+    border-radius: 10px;
+    border-color: black;
+}
+#btn:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
